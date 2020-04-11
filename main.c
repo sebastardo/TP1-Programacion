@@ -134,7 +134,8 @@ int main()
     printf("%d\n",sumatoria_bajo_diagonal_incluida(matriz));
     printf("%d\n",sumatoria_sobre_diagonal_secundaria(matriz));
     printf("%d\n",sumatoria_sobre_diagonal_secundaria_incluida(matriz));
-
+    printf("%d\n",sumatoria_bajo_diagonal_secundaria(matriz));
+    printf("%d\n",sumatoria_bajo_diagonal_secundaria_incluida(matriz));
 
 
 

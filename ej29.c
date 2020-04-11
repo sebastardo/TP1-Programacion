@@ -138,8 +138,15 @@ int sumatoria_bajo_diagonal_secundaria(int matriz [][TAM])
      {x,x,1,1},
      {x,1,1,1}};
     */
-
-    return 0;
+    int suma = 0;
+    for(int i =1; i<TAM; i++)
+    {
+        for (int j=TAM-i;j<TAM;j++)
+        {
+            suma+=matriz[i][j];
+        }
+    }
+    return suma;
 }
 
 int sumatoria_bajo_diagonal_secundaria_incluida(int matriz [][TAM])
@@ -151,5 +158,14 @@ int sumatoria_bajo_diagonal_secundaria_incluida(int matriz [][TAM])
      {1,1,1,1}};
     */
 
-    return 0;
+    int suma = 0;
+    for(int i=0; i<TAM; i++)
+    {
+        for (int j=(TAM-1)-i;j<TAM;j++)
+        {
+            suma+=matriz[i][j];
+        }
+    }
+    return suma;
 }
+
