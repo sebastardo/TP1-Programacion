@@ -123,11 +123,18 @@ int main()
 
 
 
-    int matriz[][TAM] = {{1,1,1,1},
-                         {1,1,1,1},
-                         {1,1,1,1},
-                         {1,1,1,1}};
+    int matriz[][TAM] = {{1,8,9,10},
+                         {2,1,11,12},
+                         {3,4,1,13},
+                         {5,6,7,1}};
+
+     int matriz2[][TAM] = {{1,0,0,0},
+                            {0,1,0,6},
+                            {0,0,1,0},
+                            {0,0,0,1}};
+
     //Ejercicio 29
+    /*
     printf("%d\n",sumatoria_sobre_diagonal(matriz));
     printf("%d\n",sumatoria_sobre_diagonal_incluida(matriz));
     printf("%d\n",sumatoria_bajo_diagonal(matriz));
@@ -136,14 +143,58 @@ int main()
     printf("%d\n",sumatoria_sobre_diagonal_secundaria_incluida(matriz));
     printf("%d\n",sumatoria_bajo_diagonal_secundaria(matriz));
     printf("%d\n",sumatoria_bajo_diagonal_secundaria_incluida(matriz));
+    */
 
 
+    //Ejercicio 30
+    /*
+    printf("%d\n",traza_principal(matriz));
+    printf("%d\n",traza_secundaria(matriz));
+    */
+
+    //Ejercicio 31
+    /*
+    printf("%d\n",es_diagonal(matriz));
+    printf("%d\n",es_diagonal(matriz2));
+    */
+
+    //Ejercicio 32
+    //printf("%d\n",es_identidad(matriz2));
+
+    //Ejercicio 33
+    //printf("%d\n",es_simetrica(matriz2));
 
 
+    for(int i = 0; i<TAM;i++)
+    {
+        for(int j = 0; j<TAM;j++)
+        {
+            printf("%d ",matriz[i][j]);
+        }
+        printf("\n");
+    }
+
+    //Ejercicio 34
+    //trasponer_in_situ(matriz);
+
+    //Ejercicio 35
+    //Ejercicio 36
+    // TODO: no se como devolver una matriz
+
+    printf("-----------\n");
+
+    for(int i = 0; i<TAM;i++)
+    {
+        for(int j = 0; j<TAM;j++)
+        {
+            printf("%d ",matriz[i][j]);
+        }
+        printf("\n");
+    }
 
 
-
-
+    //Ejercicio 37
+    // TODO: hacerlo
 
     return 0;
 }

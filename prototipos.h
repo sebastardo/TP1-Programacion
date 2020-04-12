@@ -114,13 +114,27 @@ int sumatoria_bajo_diagonal_secundaria_incluida(int matriz [][TAM]);
 
 
 //Ejercicio 30
+int traza_principal(int matriz [][TAM]);
+int traza_secundaria(int matriz [][TAM]);
+
 //Ejercicio 31
+enum BOOL es_diagonal(int matriz[][TAM]);
+
 //Ejercicio 32
+enum BOOL es_identidad(int matriz[][TAM]);
+
 //Ejercicio 33
+enum BOOL es_simetrica(int matriz[][TAM]);
+
 //Ejercicio 34
+void trasponer_in_situ(int matriz[][TAM]);
+
 //Ejercicio 35
 //Ejercicio 36
+//TODO: no se como devolver una matriz
+
 //Ejercicio 37
+//TODO: hacerlo
 
 
 
