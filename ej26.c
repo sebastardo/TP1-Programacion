@@ -3,10 +3,10 @@
 void eliminar_todas_apariciones(int *v, int tam, int dato)
 {
     int f = 0;
-    int *fin = v+tam-1;
+    int *fin = v+tam;
     int *aux = v;
 
-    while(aux<=fin+1)
+    while(aux<=fin)
     {
         if(*v==dato)
         {

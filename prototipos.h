@@ -29,6 +29,7 @@ float raiz_cuadrada(unsigned int, float);
 int fibonacci(int);
 
 //Ejercicio 6
+float seno(float numero, float TOL);
 
 //Ejercicio 7
 void pdn(int);
@@ -130,13 +131,15 @@ enum BOOL es_simetrica(int matriz[][TAM]);
 void trasponer_in_situ(int matriz[][TAM]);
 
 //Ejercicio 35
+void trasponer(int matriz[][TAM], int mx[][TAM]);
 //Ejercicio 36
 //TODO: no se como devolver una matriz
 
 //Ejercicio 37
 //TODO: hacerlo
 
-
+//ascii
+void ascii();
 
 
 

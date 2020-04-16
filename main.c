@@ -14,6 +14,9 @@ int main()
     //Ejercicio
     //printf("%f",e_a_la_x(7, 0.01));
 
+    //Ejercicio 6
+    //printf("%f\n", seno(5, 0.0001));
+
     //Ejercicio 7
     /*printf("6\t");pdn(6);
     printf("\n10\t");pdn(10);
@@ -75,14 +78,14 @@ int main()
 
     //Ejercicio 21
     //printf("%d",parte_entera(5.2));
-    /*
+
     int vector[5] = {1,4,6,4,12};
     for(int i=0; i<5;i++)
     {
         printf("%d ",vector[i]);
     }
     printf("\n");
-    */
+
     //Ejercicio 22
     /*
     insertar(vector, 5, 9);
@@ -99,14 +102,14 @@ int main()
     //eliminar_primera_aparicion(vector, 5, 5);
 
     //Ejericicio 26
-    /*
+
     eliminar_todas_apariciones(vector, 5, 4);
     for(int i=0; i<5;i++)
     {
         printf("%d ",vector[i]);
     }
     return 0;
-    */
+
 
     //Ejercicio 27
     /*
@@ -122,7 +125,7 @@ int main()
     //printf("%d",palabra_a_numero(&palabra));
 
 
-
+/*
     int matriz[][TAM] = {{1,8,9,10},
                          {2,1,11,12},
                          {3,4,1,13},
@@ -134,7 +137,7 @@ int main()
                             {0,0,0,1}};
 
     //Ejercicio 29
-    /*
+
     printf("%d\n",sumatoria_sobre_diagonal(matriz));
     printf("%d\n",sumatoria_sobre_diagonal_incluida(matriz));
     printf("%d\n",sumatoria_bajo_diagonal(matriz));
@@ -143,7 +146,6 @@ int main()
     printf("%d\n",sumatoria_sobre_diagonal_secundaria_incluida(matriz));
     printf("%d\n",sumatoria_bajo_diagonal_secundaria(matriz));
     printf("%d\n",sumatoria_bajo_diagonal_secundaria_incluida(matriz));
-    */
 
 
     //Ejercicio 30
@@ -156,7 +158,7 @@ int main()
     /*
     printf("%d\n",es_diagonal(matriz));
     printf("%d\n",es_diagonal(matriz2));
-    */
+
 
     //Ejercicio 32
     //printf("%d\n",es_identidad(matriz2));
@@ -165,23 +167,13 @@ int main()
     //printf("%d\n",es_simetrica(matriz2));
 
 
-    for(int i = 0; i<TAM;i++)
-    {
-        for(int j = 0; j<TAM;j++)
-        {
-            printf("%d ",matriz[i][j]);
-        }
-        printf("\n");
-    }
 
     //Ejercicio 34
     //trasponer_in_situ(matriz);
 
-    //Ejercicio 35
-    //Ejercicio 36
-    // TODO: no se como devolver una matriz
 
-    printf("-----------\n");
+
+
 
     for(int i = 0; i<TAM;i++)
     {
@@ -191,7 +183,24 @@ int main()
         }
         printf("\n");
     }
+    printf("-----------\n");
 
+
+    //Ejercicio 35
+    int mx[TAM][TAM];
+    trasponer(matriz, mx);
+
+    for(int i = 0; i<TAM;i++)
+    {
+        for(int j = 0; j<TAM;j++)
+        {
+            printf("%d ",mx[i][j]);
+        }
+        printf("\n");
+    }
+*/
+    //Ejercicio 36
+    // TODO: hacerlo
 
     //Ejercicio 37
     // TODO: hacerlo
