@@ -1,7 +1,7 @@
 #ifndef PROTOTIPOS_H_INCLUDED
 #define PROTOTIPOS_H_INCLUDED
 #include <math.h>
-#define TAM 4
+#define TAM 3
 
 enum BOOL{ FALSE,TRUE };
 
@@ -132,11 +132,16 @@ void trasponer_in_situ(int matriz[][TAM]);
 
 //Ejercicio 35
 void trasponer(int matriz[][TAM], int mx[][TAM]);
+
 //Ejercicio 36
-//TODO: no se como devolver una matriz
+//void multiplicacion_matrices(int matriz_1[][TAM], int matriz_2[][TAM], int matriz_resultado[][TAM]);
+int calculo_vectores(int m1[TAM][TAM], int fila, int m2[TAM][TAM], int columna);
 
 //Ejercicio 37
-//TODO: hacerlo
+void campeonato();
+void anotacion_de_partidos(int m[TAM][TAM]);
+void calculo_puntos(int *tabla, int m[][TAM]);
+void mostrar_puntaje(int *tabla);
 
 //ascii
 void ascii();

@@ -78,7 +78,7 @@ int main()
 
     //Ejercicio 21
     //printf("%d",parte_entera(5.2));
-
+/*
     int vector[5] = {1,4,6,4,12};
     for(int i=0; i<5;i++)
     {
@@ -87,9 +87,8 @@ int main()
     printf("\n");
 
     //Ejercicio 22
-    /*
     insertar(vector, 5, 9);
-    */
+
 
     //Ejercicio 23
     //insertar_ordenado(vector, 5, 6);
@@ -109,7 +108,7 @@ int main()
         printf("%d ",vector[i]);
     }
     return 0;
-
+*/
 
     //Ejercicio 27
     /*
@@ -125,17 +124,14 @@ int main()
     //printf("%d",palabra_a_numero(&palabra));
 
 
-/*
-    int matriz[][TAM] = {{1,8,9,10},
-                         {2,1,11,12},
-                         {3,4,1,13},
-                         {5,6,7,1}};
+    /*
+    int matriz[][TAM] = {{1,8,10},
+                         {2,1,12},
+                         {3,4,13}};
 
-     int matriz2[][TAM] = {{1,0,0,0},
-                            {0,1,0,6},
-                            {0,0,1,0},
-                            {0,0,0,1}};
-
+     int matriz2[][TAM] = {{1,0,0},
+                            {0,1,6},
+                            {0,0,0}};
     //Ejercicio 29
 
     printf("%d\n",sumatoria_sobre_diagonal(matriz));
@@ -172,38 +168,28 @@ int main()
     //trasponer_in_situ(matriz);
 
 
-
-
-
-    for(int i = 0; i<TAM;i++)
-    {
-        for(int j = 0; j<TAM;j++)
-        {
-            printf("%d ",matriz[i][j]);
-        }
-        printf("\n");
-    }
-    printf("-----------\n");
-
-
     //Ejercicio 35
     int mx[TAM][TAM];
     trasponer(matriz, mx);
-
-    for(int i = 0; i<TAM;i++)
-    {
-        for(int j = 0; j<TAM;j++)
-        {
-            printf("%d ",mx[i][j]);
-        }
-        printf("\n");
-    }
 */
     //Ejercicio 36
-    // TODO: hacerlo
+    /*
+    printf("MATRIZ 1 \n");
+    mostrar_matriz(matriz);
+    printf("\nMATRIZ 2 \n");
+    mostrar_matriz(matriz2);
+
+
+    int matrizResultado[TAM][TAM];
+    multiplicacion_matrices(matriz, matriz2, matrizResultado);
+
+    printf("\nMATRIZ Resultado \n");
+    mostrar_matriz(matrizResultado);
+    */
 
     //Ejercicio 37
-    // TODO: hacerlo
+    campeonato();
+
 
     return 0;
 }
